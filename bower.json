@@ -1,0 +1,31 @@
+{
+  "name": "vc",
+  "version": "0.0.1",
+  "description": "webrtc video conferencing example",
+  "main": "vc.js",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Timotheus Kampik"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "install": {
+    "path": {
+      "js": "/static/js/libs/{name}"
+    }
+  },
+  "sources": {
+    "jquery": "bower_components/jquery/dist/*min*"
+  }
+}

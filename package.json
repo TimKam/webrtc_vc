@@ -1,0 +1,17 @@
+{
+  "name": "vc",
+  "version": "0.0.1",
+  "description": "webrtc video conferencing example",
+  "main": "server.js",
+  "dependencies": {
+    "easyrtc": "^1.0.13",
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timotheus Kampik",
+  "license": "MIT"
+}
